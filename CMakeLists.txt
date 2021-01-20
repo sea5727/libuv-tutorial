@@ -11,6 +11,8 @@ include_directories(/usr/local/include)
 link_libraries(uv pthread dl rt)
 
 add_subdirectory(basic)
+add_subdirectory(async)
+add_subdirectory(prepare)
 # add_subdirectory(filesystem)
 
 add_executable(hello main.cpp)

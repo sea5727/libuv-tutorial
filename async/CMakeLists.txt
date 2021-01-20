@@ -1,0 +1,3 @@
+
+add_executable(function_pointer function_pointer.cpp)
+add_executable(async_function_pointer async_function_pointer.cpp)
