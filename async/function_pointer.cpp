@@ -3,6 +3,7 @@
 #include <uv.h>
 
 #include <iostream>
+#include <functional>
 #include <vector>
 #include <thread>
 
